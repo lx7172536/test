@@ -4,6 +4,7 @@ public class Users {
     private int user_id;
     private String user_name;
     private int user_age;
+    private String sex;
 
     public int getUser_id() {
         return user_id;
@@ -27,5 +28,13 @@ public class Users {
 
     public void setUser_age(int user_age) {
         this.user_age = user_age;
+    }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
     }
 }
